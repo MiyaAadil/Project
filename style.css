@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li:hover{
+	transform: scale(1.1);
+
+}
+
+a{
+	text-decoration: none;
+	color: #555;
+}
+
+p{
+	color: #555;
+}
+
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+	color: green;
+}
+
+.header{
+	background: radial-gradient(#fff,#90EE90);
+}
+
+.header .row{
+	
+}
+
+.col-4{
+	margin: 5px;
+	border: 1px;
+	float: left;
+	width: 390px;
+}
+
+.col-4 img{
+	width: 100%;
+	height: auto;
+}
+
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+}
+
+h4{
+	color: #555;
+	font-weight: normal;
+	font-weight: bold;
+}
+.col-4 p{
+	font-size: 14px;
+}
+.rating .fa{
+	color: #ff523b;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
+
+.single-product{
+	margin-top: 30px;
+}
+.single-product .col-2 img{
+	padding: 0;
+}
+.single-product .col-2{
+	padding: 20px;
+}
+.single-product h4{
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.btn{
+	color: white;
+	width: 300px;
+	height: 40px;
+	background: #8bbe1b;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid white;
+	border-style: none;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  left: 45%;
+  transform: translateX(-50%);
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h5{
+	font-size: 20px;
+	color: #555;
+}
+
+
+

@@ -1,0 +1,83 @@
+.About-us{
+	margin : 20px 40px;
+	color: #white;   
+	text-align: center;
+}
+
+.heading{
+	font-size: 60px;
+	font-family: open sans;
+	font-style: italic;
+}
+.heading span{
+	font-style: italic;
+	font-size: 30px;
+}
+
+.profiles{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 80px;
+}
+
+.team-member{
+	display: inline-block;
+	width: 200px;
+	margin: 0 20px;
+	text-align: left;
+	margin-top: 20px;
+	flex-basis: 260px;
+}
+.team-member img{
+	height: 260px;
+	width: 260px;
+	border-radius: 50%;
+	transition: 400ms;
+}
+.team-member:hover img{
+	transform: scale(1.1);
+	border-color: red;
+	transition: all 0.5s;
+}
+
+.team-member h2{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.team-member4{
+	margin-left: 220px;
+}
+.team-member4 img{
+	height: 260px;
+	width: 260px;
+}
+.team-member4:hover img{
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+.team-member4 h2{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.team-member5 h2{
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.team-member5 img{
+	height: 260px;
+	width: 260px;
+}
+.team-member5:hover img{
+	transform: scale(1.1);
+	transition: all 0.5s;
+
+}
+.team-member5{
+	margin-right: 220px;
+}

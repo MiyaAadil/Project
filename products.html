@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>All products - Bonsai</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<style>
+	.col-4 p2{
+		margin-left: 20px;
+	}
+	.container{
+	max-width: 1300px;
+	margin: auto;   /*---the element will be centered horizontally within its parent container---*/
+	padding-left: 25px;
+	padding-right: 25px;
+}
+	.row{
+	display: flex;
+	align-items: center;   /*---elements will be vertically centered within the container---*/
+	flex-wrap: wrap;   /*--This sets the flexible container to wrap its contents in multiple lines if the contents exceed the container's width--*/
+	justify-content: space-around;   /*---It positions the items such that the space between each pair of items is equal---*/
+}
+.col-4{
+	margin: 5px;
+	border: 1px;
+	float: left;
+	width: 390px;
+}
+
+.col-4 img{
+	width: 100%;
+	height: auto;
+}
+.col-4 p{
+	font-size: 14px;
+}
+.col-4:hover{
+	transform: translateY(-5px);   /*---transform is to change the vertical position of an element by moving it up 5 pixels from its original position. The translateY(-5px) is to apply 2D or 3D transformations to elements up 5 pixels---*/
+}
+
+	
+</style>
+<body>
+	
+	<div class="container">  <!-- Start of container -->
+		<div class="navbar">  <!-- Start of navigation bar -->
+		<div class="logo">  <!-- Start of logo section -->
+			<a href="index.html"><img src="image/logo.png" width="125px"></a>  <!-- Link to homepage with logo image -->
+		</div>  <!-- End of logo section -->
+		<form>  <!-- Start of search form -->
+  			<input type="text" placeholder="Search...">
+  			<button type="submit">Search</button>
+		</form>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Gardening tools</a></li>
+				<li><a href="">Contacts</a></li>
+				<li><a href="Aboutus.html">About us</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>  <!-- End of container -->
+
+	<!--------------------------------------------------------------------Products--------------------------------------------------------------->
+
+	<div class="small container">   <!----Start of All the contents of product goes here---->
+
+		<div class="row">   <!-- Start of a row for content grouping -->
+			<h2>Gardening Tools</h2>  <!-- Heading for the section -->
+		</div>
+        <!----------Start of the Row for products display------------>
+		<div class="row">
+			<div class="col-4">   <!-- Start of the column for product display -->
+				<a href="trowel detail.html">  <!-- Link to product detail page -->
+				<img src="image/steel trowel.jpg">  <!-- Image of the product -->
+				<h4>Steel Trowel</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>This wide blade steel trowel is composed of tempered steel, which helps...</p>   <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶1̶3̶.̶2̶5̶</p1><p2>$11.95</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="hoe.html">  <!-- Link to product detail page -->
+				<img src="image/hoe.jpg">  <!-- Image of the product -->
+				<h4>Hand Hoe</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>The Japanese Hand Hoe is used to turn and aerate soil with its fork-like...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶1̶5̶.̶9̶5̶</p1><p2>$13.75</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="hook.html">  <!-- Link to product detail page -->
+				<img src="image/hook loosening.jpg">  <!-- Image of the product -->
+				<h4>Hook Loosening</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>The bonsai root hook is an essential equipment for gardening operations...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶1̶5̶.̶0̶0̶</p1><p2>$12.47</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="knob.html">  <!-- Link to product detail page -->
+				<img src="image/knob cutter.jpg">  <!-- Image of the product -->
+				<h4>Knob Cutter</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>Excellent for clean, deep cuts near the trunk with excellent scar...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶3̶5̶.̶2̶5̶</p1><p2>$31.69</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="leaf.html">  <!-- Link to product detail page -->
+				<img src="image/leaf cutter.jpg">  <!-- Image of the product -->
+				<h4>Leaf Cutter</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>Bonsai leaf cutters are 105mm long and ideal for short work on your...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶1̶0̶.̶5̶5̶</p1><p2>$6.99</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="shears.html">  <!-- Link to product detail page -->
+				<img src="image/shears.jpg">  <!-- Image of the product -->
+				<h4>Shears</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>Bonsai shears are the most versatile and efficient cutting instrument...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶2̶2̶.̶7̶5̶</p1><p2>$17.99</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="shovel.html">  <!-- Link to product detail page -->
+				<img src="image/shovel.jpg">  <!-- Image of the product -->
+				<h4>Shovel</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>Commercial Shovel. These garden shovel are ideal for a variety of...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶1̶3̶.̶2̶5̶</p1><p2>$10.25</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="watering can.html">  <!-- Link to product detail page -->
+				<img src="image/watering can.jpg">  <!-- Image of the product -->
+				<h4>Watering Can</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>This handy watering can holds 1 pint of water, which is sufficient...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶2̶7̶.̶2̶5̶</p1><p2>$24.95</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			<div class="col-4">  <!-- Start of the column for product display -->
+				<a href="scraper.html">  <!-- Link to product detail page -->
+				<img src="image/scraper.jpg">  <!-- Image of the product -->
+				<h4>Scraper</h4></a>  <!-- Product name -->
+				<br>  <!-- Line break -->
+				<p>The Kusakichi Nejiri Scraper weeding tool is lightweight and easy to...</p>  <!-- Product description -->
+				<br>  <!-- Another line break -->
+				<p1>$̶2̶0̶.̶0̶0̶</p1><p2>$15.95</p2>  <!-- Product price with actual price and discounted price -->
+			</div>  <!-- End of the column for product display -->
+			
+		</div>   <!-------End of the Row for products display------->
+		
+	</div>   <!----End of All the contents of product goes here---->
+
+</body>
+</html>

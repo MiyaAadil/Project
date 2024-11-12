@@ -1,0 +1,213 @@
+*{
+
+  box-sizing: border-box;
+}
+
+header{ 
+  background-color: #5f8569;    /* here we are selecting the background color and spacing between text and border */
+  padding: 10px;
+  margin-bottom:15px; 
+  border: 0px;
+  display: flex;
+}
+
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;    /* removing the underline in anker tags */ 
+}
+.websiteName{             /* this is the name of website */
+  font-size: 37px;
+  color: white;           /* text color */
+  margin-left: 50px;    /* text spacing from left */     
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  padding-left: 10px;       /* text spacing from left */
+  display: flex;
+
+ }
+
+ .websiteName:hover,.aboutus:hover{   /* this is the hover effect when mouse cursor is placed in following text */
+  color:#d1e3d6 ;
+
+   } 
+
+.aboutus{
+  color: white; 
+  font-size: 30px;
+}
+.slogan{
+  font-size: 40px;
+  color: black;         /*text color*/
+  font-weight: bold;      /* text in bold style*/
+  
+}
+
+.navigations {
+  list-style-type: none;    /* specifies the listing methods */
+  margin-top: 15;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #d1e3d6;
+  width: 100%;
+  
+}
+
+
+.current, .others{
+  
+  float: left;   /* makes text in left side */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  width: 16.66%;
+}
+
+.current:hover, .others:hover{
+  background-color: #82a18a;
+  color: white;
+}
+.home, .others{
+  border: none;
+  color: black;
+  background-color: transparent;      /*makes background color transperent */
+  font-size: 25px;
+  
+}
+.current{
+  border: none;
+  color: black;
+  background-color: #5f8569;   /* change in background color*/
+  font-size: 25px;
+  color: white;
+  
+}
+
+
+footer{
+  background-color:  #d1e3d6;
+  padding: 18px 20px;
+  text-align: left;
+  margin-top: 15px;
+
+}
+.footersignin{
+  background-color:#5f8569 ;
+  color: #333333;
+  padding: 20px 40px;  /* top and bottom padding are 15px  right and left padding are 32px */
+  font-size: 25px;
+}
+.connectwith{
+  color: #7AAB35 ;
+  padding-left: 550px;
+  margin-bottom: 40px;
+}
+
+.footersignin:hover{
+  background-color: #82a18a;
+  color: white;
+}
+
+.contacts{
+  font-size: 50px;
+  padding-left: 50px;
+  
+}
+ol{
+  font-size: 20px;
+  list-style-type: none;    
+  margin-top: 15;
+  }
+
+.facebook, .twiter, .instagram{      /*adjusting the images*/
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  transition: transform .5s;       /* transition effect time */
+}
+
+.facebook:hover, .twiter:hover, .instagram:hover{
+  transform: scale(1.5);           /* animation making the image bigger */
+}
+
+
+.youtube{
+  border-radius: 30px;
+  width: 60px;
+  height: 35px;
+  transition: transform .5s;
+}
+.youtube:hover{
+  transform: scale(1.2);
+}
+.socials{
+  margin-left: 40px;
+  margin-top: 15px;
+
+}
+.lastrow{
+  display: flex;
+  margin-top: 40px;
+
+}
+.feedback{
+  font-size: 25px;
+}
+
+.lastleft{
+  flex: 40%;
+
+}
+.lastmiddlefom{
+  flex:30%;
+
+}
+.lastright{
+  flex: 30%;
+  font-size: 30px;
+}
+.teamsname{
+  color: black;
+  
+
+}
+.copyright{
+  text-align: center;
+  font-size: 25px;
+}
+
+.emaillast{
+  font-size: 15px;
+  border: 1px solid grey;      
+  width: 200px;
+  height: 30px;
+  background: #f1f1f1;  
+}
+.contactussubmit{
+  font-size: 15px;
+}
+.submitbutton{
+  background-color:#5f8569 ;
+  color: white;
+  border: none;
+  padding: 15px 22px;  /* top and bottom padding are 15px  right and left padding are 22px */
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+
+ 
+}
+.submitbutton:hover{
+  background-color: #82a18a;
+  cursor: pointer;
+}
